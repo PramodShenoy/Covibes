@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/comm"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.romainpiel.shimmer.ShimmerTextView
+        android:id="@+id/shimmer_tv"
+        style="@style/Theme.AppCompat.NoActionBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="COVIBES"
+        android:textColor="#263238"
+        android:textSize="40sp" />
+
+
+    <com.romainpiel.shimmer.ShimmerTextView
+        android:id="@+id/shimmer_tv1"
+        style="@style/AppTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shimmer_tv"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="Connecting People and Businesses"
+
+        android:textColor="#263238"
+        android:textSize="30sp"
+
+        android:textStyle="italic" />
+</RelativeLayout>
